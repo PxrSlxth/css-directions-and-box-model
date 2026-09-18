@@ -1,1 +1,27 @@
 /* Start coding here */
+*  {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+.lightgray-box {
+    border: 16px solid lightgray;
+}
+
+.black-box {
+    border: 16px solid black;
+}
+
+.crimson-box {
+    border: 24px solid red;
+}
+
+.tech-up {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 72px;
+    background-color: rgb(255, 255, 132);
+}
